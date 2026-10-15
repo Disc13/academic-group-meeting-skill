@@ -1,0 +1,22 @@
+# This public repository intentionally contains rules, not personal artifacts.
+assets/
+private/
+.build/
+*.ppt
+*.pptx
+*.pptm
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.zip
+*.log
+.env
+.env.*
+*.pem
+*.key
+data.json
+data.json.*
+__pycache__/
+.DS_Store
+Thumbs.db
