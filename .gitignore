@@ -9,6 +9,13 @@ private/
 *.png
 *.jpg
 *.jpeg
+*.heic
+*.heif
+*.mov
+*.mp4
+*.docx
+*.xlsx
+*.p12
 *.zip
 *.log
 .env

@@ -8,6 +8,7 @@
 
 - `SKILL.md`：触发条件、讲述方法和制作检查要求。
 - `references/style-guide.md`：内容组织、视觉层级及常用版式。
+- `references/paper-review.md`：论文覆盖、学术结论边界及渲染验收，包含 COM 配色和安全检查注意事项。
 - `agents/openai.yaml`：技能显示与调用配置。
 
 本公开版本不包含个人姓名、学校标识、原始演示文稿、论文或课程截图、聊天记录、本地环境配置和凭据。需要精确匹配版式时，应另行提供可使用的参考模板及资料。
@@ -15,6 +16,12 @@
 ## 使用
 
 将本目录放入支持 Agent Skills 的工具的个人技能目录，并保持目录名为 `academic-group-meeting`。在 Codex 中可显式调用：
+
+可在目标技能目录中执行以下命令，直接使用正确的目录名：
+
+```sh
+git clone https://github.com/Disc13/academic-group-meeting-skill.git academic-group-meeting
+```
 
 ```text
 使用 $academic-group-meeting，把这篇论文做成约40分钟的组会汇报，
